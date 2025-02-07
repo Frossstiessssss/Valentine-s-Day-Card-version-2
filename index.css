@@ -380,7 +380,7 @@ a {
     justify-content: center;
     align-items: center;
     margin-top: 20px;
-    margin-bottom: 60px;
+    margin-bottom: 50px;
   }
   #shine {
     font-size: 60px;
@@ -762,7 +762,6 @@ body{
     color: #734f96;
     display: inline-block;
     font-size: 20px;
-    text-transform: uppercase;
     margin: 10px;
     margin-top: 500px;
     padding: 5px;

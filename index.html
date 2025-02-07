@@ -19,7 +19,7 @@
                     <div class="no">
                         <button id="no">No</button>   
                         <script>
-document.getElementById('no').onclick = function() {
+            document.getElementById('no').onclick = function() {
             const buttonWidth = this.offsetWidth;
             const buttonHeight = this.offsetHeight;
             const randomX = Math.random() * (800 - buttonWidth);
@@ -35,7 +35,7 @@ document.getElementById('no').onclick = function() {
                                 newButton.style.position = 'absolute';
                                 newButton.style.left = `${Math.random() * (window.innerWidth - 100)}px`;
                                 newButton.style.top = `${Math.random() * (window.innerHeight - 40)}px`;
-                                newButton.style.fontSize = '88px';
+                                newButton.style.fontSize = '250px';
                                 newButton.style.color = '#93CFA4';
                                 newButton.style.backgroundColor = '#DDF0DA';
                                 newButton.style.borderRadius = '3px';

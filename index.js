@@ -4,7 +4,6 @@ $(document).ready(function() {
     var btn_reset = $("#reset");
     var btn_no = $("#no");
     var btn_yes = $("yes");
-
     envelope.click(function() {
         open();
     });
@@ -22,8 +21,6 @@ $(document).ready(function() {
     btn_yes.click(function(){
         nextPage();
     })
-
-
     function open() {
         envelope.addClass("open")
             .removeClass("close");
@@ -33,9 +30,6 @@ $(document).ready(function() {
         envelope.addClass("close")
             .removeClass("open");
     }
-
-
-
     function nextPage(){
         
     }
