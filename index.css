@@ -62,7 +62,7 @@ body {
     width: 80%;
     height: 14%;
     font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: cursive;
     color: black;
 }
 .line1 {
@@ -177,7 +177,7 @@ body {
 }
 .reset button {
     font-weight: 800;
-    font-style: normal;
+    font-family: cursive;
     transition: all 0.1s linear;
     background-color: #DDF0DA;
     border: solid 2px #93CFA4;
@@ -201,7 +201,7 @@ body {
 }
 .valentine {
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: cursive;
     color: #734f96;
     font-size: 70px;
     margin: 150px;
@@ -212,7 +212,7 @@ body {
 .no button {
     position:absolute;
     font-weight: 800;
-    font-style: normal;
+    font-family: cursive;
     transition: all 0.1s linear;
     background-color: transparent;
     border: solid 2px #93CFA4;
@@ -239,10 +239,15 @@ body {
 .yes {
     text-align: left;
 }
+
+a {
+    text-decoration: none; 
+    color: inherit; 
+}
 .yes button {
     position:absolute;
     font-weight: 800;
-    font-style: normal;
+    font-family: cursive;
     transition: all 0.1s linear;
     background-color: transparent;
     border: solid 2px #93CFA4;
@@ -379,7 +384,7 @@ body {
   }
   #shine {
     font-size: 60px;
-    font-weight: bold;
+    font-family: cursive;
     color:#734f96;
     
   }
@@ -419,7 +424,7 @@ body {
 .button button {
     position:absolute;
     font-weight: 800;
-    font-style: normal;
+    font-family: cursive;
     transition: all 0.1s linear;
     background-color: transparent;
     border: solid 2px #FF6863;
@@ -469,6 +474,7 @@ body{
 #thankyou {
     width: 100%;
     text-align: center; 
+    font-family: cursive;
     margin-top: 20px; 
     z-index: 1000; 
     position: relative; 
@@ -750,7 +756,7 @@ body{
 .message{
     position:absolute;
     font-weight: 800;
-    font-style: normal;
+    font-family: cursive;
     transition: all 0.1s linear;
     background-color: transparent;
     color: #734f96;
